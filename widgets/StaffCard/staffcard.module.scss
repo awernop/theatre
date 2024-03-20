@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 3px solid #000;
+    border-radius: 21px;
+    padding: 0px 0px 32px 0px;
+    width: 310px;
+    height: 509px;
+    transition: 0.3s ease-out;
+
+    span{
+        font-family: var(--fontfamily);
+        font-weight: 700;
+        font-size: 26px;
+        color: #000;
+        padding-left: 15px;
+        margin-top: 18px;
+    }
+
+    p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        color: #9b9b9b;
+        padding-left: 15px;
+    }
+
+    &:hover{
+        opacity: 70%;
+    }
+}
+
+.img{
+    border-radius: 17px;
+}

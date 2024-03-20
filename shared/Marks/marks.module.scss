@@ -1,0 +1,16 @@
+.marks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    padding: 7px 19px;
+    border: 3px solid #a11717;
+    border-radius: 24px;
+
+    p{
+        font-family: var(--fontfamily);
+        font-weight: 700;
+        font-size: 20px;
+        color: #a11717;
+    }
+}

@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 58px;
+}
+
+.level2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.level3{
+    display: flex;
+    gap: 146px;
+}
+
+.text{
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: 20px;
+    color: #141b25;
+
+    &__red{
+        font-family: var(--fontfamily);
+        font-weight: 700;
+        font-size: 20px;
+        color: #a11717;
+
+        &__mail{
+            font-family: var(--fontfamily);
+            font-weight: 700;
+            font-size: 20px;
+            color: #a11717;
+            margin: 20px 0;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    margin-top: 16px;
+}

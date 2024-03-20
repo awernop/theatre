@@ -1,0 +1,31 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 3px solid #000;
+    border-radius: 21px;
+    padding: 0px 0px 27px 0px;
+    width: 643px;
+    height: 514px;
+    transition: 0.3s ease-in-out;
+
+    &__txt{
+        font-family: var(--fontfamily);
+        font-weight: 700;
+        font-size: 36px;
+        color: #000;
+        padding-left: 21px;
+        padding-top: 15px;
+        max-width: 600px;
+    }
+
+    &:hover{
+        opacity: 70%;
+    }
+}
+
+.img{
+    border-radius: 16px;
+    width: 643px;
+    height: 377px;
+}

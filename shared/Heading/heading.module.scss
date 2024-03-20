@@ -1,0 +1,14 @@
+.heading{
+    display: flex;
+    align-items: flex-start;
+    gap: 19px;
+    margin-bottom: 60px;
+
+    &__txt{
+        font-family: var(--font2);
+        font-weight: 400;
+        font-size: 90px;
+        text-transform: uppercase;
+        color: #000;
+    }
+}

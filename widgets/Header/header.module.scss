@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 27px;
+}
+
+.level2{
+    display: flex;
+    align-items: center;
+    padding: 10px 33px;
+    width: 1300px;
+    margin-top: 18px;
+}
+
+.navigation{
+    display: flex;
+    gap: 108px;
+    margin-left: 35%;
+    margin-right: 7%;
+
+    &__txt{
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #141b25;
+        font-family: var(--fontfamily);
+    }
+
+    &__active{
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: var( --buttonred);
+        font-family: var(--buttonred);
+    }
+}
+

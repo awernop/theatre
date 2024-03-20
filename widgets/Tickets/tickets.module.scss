@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 21px;
+    width: 612px;
+    height: 210px;
+}
+
+.right{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: #000;
+    }
+
+    &__row{
+        display: flex;
+        align-items: center;
+        gap: 200%;
+
+        p{
+            font-family: var(--fontfamily);
+            font-weight: 400;
+            font-size: 16px;
+            color: #9b9b9b;
+        }
+    }
+}
+
+.play{
+    margin-bottom: 10px;
+    font-family: var(--fontfamily);
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+}
